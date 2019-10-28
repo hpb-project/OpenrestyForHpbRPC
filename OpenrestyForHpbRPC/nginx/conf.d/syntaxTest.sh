@@ -1,0 +1,1 @@
+docker run --rm -it -v /opt/openresty/nginx/logs:/usr/local/openresty/nginx/logs -v /opt/openresty/nginx/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf -v /opt/openresty/nginx/lua:/usr/local/openresty/nginx/lua -v /opt/openresty/nginx/conf.d:/etc/nginx/conf.d openresty/openresty openresty -t
